@@ -1,5 +1,6 @@
 # TODO APP
 VISIT APP: https://karthikp007.github.io/to-do-app/
+
 FEATURES OF THE APP:
 1. Add Tasks: Users can add tasks by typing into the input field and clicking the ‘ADD’ button or pressing the Enter key. The tasks are then displayed in the ‘Tasks’ section.
 
