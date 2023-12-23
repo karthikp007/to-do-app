@@ -1,8 +1,14 @@
-# React + Vite
+# TODO APP
+VISIT APP: https://karthikp007.github.io/to-do-app/
+FEATURES OF THE APP:
+1. Add Tasks: Users can add tasks by typing into the input field and clicking the ‘ADD’ button or pressing the Enter key. The tasks are then displayed in the ‘Tasks’ section.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+2. Mark Tasks as Completed: Each task has a checkbox next to it. When a user clicks on the checkbox, the task is marked as completed and moved to the ‘Completed’ section. Clicking the checkbox again marks the task as uncompleted and moves it back to the ‘Tasks’ section.
 
-Currently, two official plugins are available:
+3. Delete Tasks: Each task has a delete icon next to it. Clicking this icon deletes the task from the list.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+4. Reset Tasks: There’s a ‘Reset’ button at the top of the application. Clicking this button clears all tasks and returns the application to its initial state. Before resetting, the application asks for confirmation to prevent accidental deletions.
+
+5. Local Storage: The application uses local storage to persist tasks. This means that even if the page is refreshed or closed, the tasks will still be there when the page is opened again.
+
+6. Responsive Design: The application is designed to be responsive. It adjusts its layout based on the screen size to provide an optimal user experience on both desktop and mobile devices.
